@@ -2,3 +2,10 @@ body{
 background-color: rgb(21, 217, 21);
 
 }
+
+.card{
+ width: 20em;
+ margin-top: 20em;
+ margin-left: 7em;
+}
+
