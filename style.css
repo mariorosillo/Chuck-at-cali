@@ -8,7 +8,7 @@
 .list{
     height: fit-content;
     gap: 1em;
-    color: rgb(21, 217, 21);
+    color: rgb(19, 201, 19);
     font: 800 1rem monospace;
 }
 
@@ -22,7 +22,7 @@
  align-items: center;     /* Vertical center */
  text-align: center;      /* Centers multiline text */
   background: #ed26ffe5;
-  border: .5em solid #fff01e93;
+  border: .5em solid #ffee0593;
   border-radius: 4px;
   position: relative;
   transform-style: preserve-3d;
