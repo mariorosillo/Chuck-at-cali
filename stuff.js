@@ -24,6 +24,8 @@ async function getAllRecords() {
         let address = data.records[i].fields["Address"]; // here we are getting column values
         let name = data.records[i].fields["Name"]; //here we are using the Field ID to fecth the name property
         let photo = data.records[i].fields["Photo"];
+        let number = data.records[i].fields["Number"];
+
 
         newHtml += `
         
@@ -37,6 +39,7 @@ async function getAllRecords() {
           </a>
           <p class="card-key">${name}</p>
           <p class="card-key">${address}</p>
+          <p class="card-key">${number}</p>
           </div>
           </div>
         </div>

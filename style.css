@@ -5,19 +5,15 @@ background-color: rgb(21, 217, 21);
 
 .card{
  width: 20em;
- height: 30em;
  margin-top: 10em;
- margin-left: 4em;
- gap: 5em;  
+ margin-left: 9em;
  background-color: rgb(248, 51, 238);
+ justify-content: center; /* Horizontal center */
+ align-items: center;     /* Vertical center */
+ text-align: center;      /* Centers multiline text */
 }
 
-.navbar {
-  background-color: #ffbf80;
-  width: 100vw;
-  --bs-navbar-active-color: black;
-  --bs-navbar-brand-color: black;
-}
+
 .navbar-brand{
     margin-left: 1em;
 }
@@ -26,4 +22,9 @@ background-color: rgb(21, 217, 21);
     height: fit-content;
     gap: 1em;
     color: yellow;
+    
+}
+
+.p{
+    
 }
