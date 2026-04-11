@@ -12,7 +12,7 @@ background-color: rgb(21, 217, 21);
     height: fit-content;
     gap: 1em;
     color: yellow;
-    
+    font: 700 1rem monospace;
 }
 
 .cards {
@@ -39,18 +39,3 @@ background-color: rgb(21, 217, 21);
   transform: translateZ(7em) rotateX(20deg) rotateY(20deg);
 }
 
-.card_title {
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  transition: transform .5s;
-  font: 700 1.5rem monospace;
-  text-shadow: -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-}
-
-.card:hover .card_title {
-  transform: translateZ(50px);
-}
