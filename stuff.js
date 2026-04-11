@@ -30,7 +30,7 @@ async function getAllRecords() {
         newHtml += `
         
          <div class="col-xl-4 cardImageText">
-          <div class="card list move border-dark mb-5" >
+          <div class="card list move mb-5" >
           <a href="breweries.html?id=${data.records[i].id}">${
             photo
               ? `<img class="card-img-top rounded" alt="${name}" src="${photo[0].url}">`

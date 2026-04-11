@@ -1,7 +1,7 @@
-body{
+/* body{
 background-color: rgb(21, 217, 21);
 
-}
+} */
 
 
 .navbar-brand{
@@ -11,13 +11,11 @@ background-color: rgb(21, 217, 21);
 .list{
     height: fit-content;
     gap: 1em;
-    color: yellow;
-    font: 700 1rem monospace;
+    color: rgb(21, 217, 21);
+    font: 800 1rem monospace;
 }
 
-.cards {
-  perspective: 500px;
-}
+
 
 .card {
   margin-top: 10em;
@@ -27,7 +25,7 @@ background-color: rgb(21, 217, 21);
  align-items: center;     /* Vertical center */
  text-align: center;      /* Centers multiline text */
   background: #ed26ff;
-  border: 2px solid #555555;
+  border: .5em solid #fff01e;
   border-radius: 4px;
   position: relative;
   transform-style: preserve-3d;
