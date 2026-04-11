@@ -1,7 +1,4 @@
-/* body{
-background-color: rgb(21, 217, 21);
 
-} */
 
 
 .navbar-brand{
@@ -24,8 +21,8 @@ background-color: rgb(21, 217, 21);
   height: 28em;
  align-items: center;     /* Vertical center */
  text-align: center;      /* Centers multiline text */
-  background: #ed26ff;
-  border: .5em solid #fff01e;
+  background: #ed26ffe5;
+  border: .5em solid #fff01e93;
   border-radius: 4px;
   position: relative;
   transform-style: preserve-3d;
@@ -38,3 +35,19 @@ background-color: rgb(21, 217, 21);
   
 }
 
+.scrolling-background {
+  height: 100vh;
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-repeat: repeat-y; /* Vertical repeat */
+  animation: scroll-vertical 99900s linear infinite; /* Infinite loop */
+}
+
+@keyframes scroll-vertical {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -999999%;
+  }
+}
