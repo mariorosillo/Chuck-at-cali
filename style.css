@@ -8,15 +8,19 @@
 .list{
     height: fit-content;
     gap: 1em;
-    color: rgb(19, 201, 19);
-    font: 800 1rem monospace;
+    color: rgb(236, 255, 69);
+  font-family: "Mogra", system-ui;
+    font-size: 1.2rem;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 
 
 .card {
   margin-top: 10em;
-  margin-left: 9em;
+  margin-left: 7em;
   width: 20em;
   height: 28em;
  align-items: center;     /* Vertical center */
@@ -37,10 +41,10 @@
 
 .scrolling-background {
   height: 100vh;
-  background-image: url('back.jpg');
+  background-image: url('back.png');
   background-size: cover;
   background-repeat: repeat-y; /* Vertical repeat */
-  animation: scroll-vertical 99900s linear infinite; /* Infinite loop */
+  animation: scroll-vertical 60s linear infinite; /* Infinite loop */
 }
 
 @keyframes scroll-vertical {
@@ -48,6 +52,6 @@
     background-position: 0 0;
   }
   100% {
-    background-position: 0 -999999%;
+    background-position: 0 -100%;
   }
 }
