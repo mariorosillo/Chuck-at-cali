@@ -36,6 +36,7 @@ background-color: rgb(21, 217, 21);
 }
 
 .card:hover {
-  transform: translateZ(7em) rotateX(20deg) rotateY(20deg);
+  transform: translateZ(7em) rotateX(20deg) rotateY(30deg);
+  
 }
 
