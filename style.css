@@ -24,7 +24,9 @@ background-color: rgb(21, 217, 21);
   margin-left: 9em;
   width: 20em;
   height: 28em;
-  background: #16161d;
+ align-items: center;     /* Vertical center */
+ text-align: center;      /* Centers multiline text */
+  background: #ed26ff;
   border: 2px solid #555555;
   border-radius: 4px;
   position: relative;
@@ -34,13 +36,12 @@ background-color: rgb(21, 217, 21);
 }
 
 .card:hover {
-  transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  transform: translateZ(7em) rotateX(20deg) rotateY(20deg);
 }
 
 .card_title {
-  color: #fff;
   position: absolute;
-  top: 100%;
+  top: 60%;
   transform: translateY(-50%);
   transition: transform .5s;
   font: 700 1.5rem monospace;
