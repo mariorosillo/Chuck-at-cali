@@ -9,3 +9,7 @@ background-color: rgb(21, 217, 21);
  margin-left: 7em;
 }
 
+.navbar, .bg-body-tertiary{
+    background-color: rgb(228, 18, 247);
+
+}
