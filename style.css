@@ -5,11 +5,25 @@ background-color: rgb(21, 217, 21);
 
 .card{
  width: 20em;
- margin-top: 20em;
- margin-left: 7em;
+ height: 30em;
+ margin-top: 10em;
+ margin-left: 4em;
+ gap: 5em;  
+ background-color: rgb(248, 51, 238);
 }
 
-.navbar, .bg-body-tertiary{
-    background-color: rgb(228, 18, 247);
+.navbar {
+  background-color: #ffbf80;
+  width: 100vw;
+  --bs-navbar-active-color: black;
+  --bs-navbar-brand-color: black;
+}
+.navbar-brand{
+    margin-left: 1em;
+}
 
+.list{
+    height: fit-content;
+    gap: 1em;
+    color: yellow;
 }
