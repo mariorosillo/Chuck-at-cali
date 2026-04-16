@@ -5,6 +5,9 @@
     margin-left: 1em;
 }
 
+
+
+
 .list{
     height: fit-content;
     gap: 1em;
@@ -15,9 +18,6 @@
   font-style: normal;
 
 }
-
-
-
 .card {
   margin-top: 10em;
   margin-left: 7em;
@@ -33,6 +33,35 @@
   will-change: transform;
   transition: transform .5s;
 }
+.card2 {
+  margin-top: 10em;
+  margin-left: 7em;
+
+ align-items: center;     /* Vertical center */
+ text-align: center;      /* Centers multiline text */
+  background: #ed26ffe5;
+  border: .5em solid #ffee0593;
+  border-radius: 4px;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform .5s;
+}
+
+
+.hours-list{
+ height: fit-content;
+    gap: 1em;
+    color: rgb(236, 255, 69);
+  font-family: "Mogra", system-ui;
+    font-size: 1.2rem;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+
 
 .card:hover {
   transform: translateZ(7em) rotateX(20deg) rotateY(30deg);

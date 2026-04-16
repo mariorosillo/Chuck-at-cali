@@ -15,7 +15,7 @@ async function getAllRecords() {
     .then((response) => response.json())
     .then((data) => {
       console.log(data); // response is an object w/ .records array
-   
+
       getResultElement.innerHTML = ""; // clear brews
 
       let newHtml = "";
@@ -31,10 +31,9 @@ async function getAllRecords() {
         
          <div class="col-xl-4 cardImageText">
           <div class="card list move mb-5" >
-          <a href="index.html?id=${data.records[i].id}">${
-            photo
-              ? `<img class="card-img-top rounded" alt="${name}" src="${photo[0].url}">`
-              : ``
+          <a href="index.html?id=${data.records[i].id}">${photo
+            ? `<img class="card-img-top rounded" alt="${name}" src="${photo[0].url}">`
+            : ``
           }
           </a>
           <p class="card-key">${name}</p>
@@ -78,55 +77,38 @@ async function getOneRecord(id) {
       let photo = data.fields["Photo"];
       let name = data.fields["Name"];
       let location = data.fields["Location"];
-      let address= data.fields["Address"];
+      let address = data.fields["Address"];
       let description = data.fields["Description"];
       let menu = data.fields["Menu"];
       let hours = data.fields["Hours"];
       let number = data.fields["Number"]
 
       let newHtml = `
-        <div class="card list mb-3">
-  <div class="row g-0">
-    <div class="col-md-4 d-flex justify-content-center align-items-center">
-     ${
-       menu
-         ? `<img class="img-fluid back ms-4" alt="${name}" src="${photo[0].url}">`
-         : ``
-     }
+       
+ 
+    <div class="col d-flex justify-content-center align-items-center">
+     ${menu
+          ? `<img class="img-fluid back ms-4" alt="${name}" src="${photo[0].url}">`
+          : ``
+        }
+   
     </div>
-    <div class="col-md-6 d-flex justify-content-center align-items-center desc">
+    
+    <div class="col d-flex justify-content-center align-items-center desc">
       <div class="card-body">
         <h5 class="card-title bar">${name}</h5>
         <p class="card-text">${description}</p>
         <p class="card-text"><small>${address} <br> SF, CA ${location}</small></p>
       </div>
-    </div>
-  </div>
-</div>
+ 
 
-<div class="card list mb-3">
-  <div class="row g-0">
-    <div class="col-md-4 d-flex justify-content-center ">
-    ${
-      photo
-        ? `<img class="img-fluid front" alt="${name}" src="${photo[0].url}">`
-        : ``
-    }
-       </div>
-       <div class="col-md-6 d-flex justify-content-center align-items-center">
-       <div class="card-body">
-       <div class="card-group hours mx-auto">    
-  <div class="card list hours shift">
-    <div class="card-body">
-      <h4 class="card-title">🕔 Hours</h4>
-      <p class="card-text">${formattedString(hours)}</p>
-      
 
-     
     </div>
-  </div>
-</div>
-<div class="moves">
+    <div class="row g-3">
+   
+<div class="col d-flex justify-content-center align-items-center">
+  
+     <div class="moves">
 <table class="table misc">
     <tbody>
     <tr>
@@ -145,10 +127,35 @@ async function getOneRecord(id) {
   </tbody>
 </table>
 </div>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    
+    <div class="col d-flex justify-content-center align-items-center desc">
+ 
+  <div class="hours-list hours shift">
+    <div class="card-body">
+      <h4 class="card-title">🕔 Hours</h4>
+      <p class="card-text">${formattedString(hours)}</p>
+      
+
+     
+    </div>
+  </div>
+
+
+    </div>
+
+
+
+   
+   </div> 
+
+
+
+ 
+    
+
+
+
       `;
 
       jobsResultElement.innerHTML = newHtml;
