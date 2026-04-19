@@ -34,13 +34,10 @@
   transition: transform .5s;
 }
 .card2 {
-  margin-top: 10em;
-  margin-left: 7em;
-
  align-items: center;     /* Vertical center */
  text-align: center;      /* Centers multiline text */
-  background: #ed26ffe5;
-  border: .5em solid #ffee0593;
+  background: #2672ffe5;
+  border: .5em solid #ffee05d5;
   border-radius: 4px;
   position: relative;
   transform-style: preserve-3d;
