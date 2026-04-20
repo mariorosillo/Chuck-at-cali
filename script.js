@@ -57,7 +57,7 @@ function formattedString(value) {
 
 // function for our detail view
 async function getOneRecord(id) {
-  let jobsResultElement = document.getElementById("chuck");
+  let jobsResultElement = document.getElementById("chuck2");
 
   const options = {
     method: "GET",
