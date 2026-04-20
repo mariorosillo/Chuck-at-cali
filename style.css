@@ -49,9 +49,16 @@
   transition: transform .5s;
 }
 
+.moves{
+  margin-bottom: 14em ;
+  margin-right: 16em;
+  height: 30em;
+  width: 45em;
 
+}
 .hours-list{
- height: fit-content;
+  height: 40em;
+  width: 13em;
     gap: 1em;
     color: rgb(236, 255, 69);
   font-family: "Mogra", system-ui;

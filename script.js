@@ -116,13 +116,13 @@ async function getOneRecord(id) {
       <td class="card-text">${location}</td>
     </tr>
     <tr>
-      <th scope="row misc">Outdoor Seating</th>
+      <th scope="row misc">Number</th>
       <td>${number}</td>
     </tr>
 
     <tr>
       <th scope="row misc">Links</th>
-      <td colspan="2"><a href="${menu}" target="_blank"><button type="button" class="btn btn-primary btn-sm go">Website</button></a> <a href="${menu}" target="_blank"><button type="button" class="btn btn-primary btn-sm go">Yelp</button></a></td>
+      <td colspan="2"><a href="${menu}" target="_blank"><button type="button" class="btn btn-primary btn-sm go">Website</button></a> </td>
     </tr>
   </tbody>
 </table>
