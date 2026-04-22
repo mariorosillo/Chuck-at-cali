@@ -37,9 +37,9 @@
  align-items: center;     /* Vertical center */
  text-align: center;  /* Centers multiline text */
  margin-top: 4em;
- width: 145em;
-  height: 65em;
- margin-left: 5em;
+ width: 135em;
+  height: 75em;
+ margin-left: 2em;
   background: #f701ff88;
   border: .5em solid #ffee05d5;
   border-radius: 4px;
@@ -49,29 +49,52 @@
   transition: transform .5s;
 }
 
-.moves{
-  margin-bottom: 14em ;
-  margin-right: 16em;
-  height: 30em;
-  width: 45em;
+.name{
+  font-family: "Mogra", system-ui;
+  font-weight: 200;
+  margin-block: 6em;
 
+}
+
+.hours-title{
+  margin-bottom: 2em;
+  color: rgb(0, 0, 0);
+
+}
+.stuff-s {
+color: aqua;
+row-gap: 7em;
+  font-family: "Mogra", system-ui;
+    font-size: 1.2rem;
+  font-weight: 700;
+  font-style: normal;
+ 
+
+
+}
+.table{
+
+ height: 20em;   
+  width: 53em; 
+  margin-bottom: 24em;
+  margin-right: 11em;
 }
 .hours-list{
   height: 40em;
   width: 13em;
-    gap: 1em;
     color: rgb(236, 255, 69);
   font-family: "Mogra", system-ui;
     font-size: 1.2rem;
   font-weight: 700;
   font-style: normal;
-
+  
+  
 }
 
 .img-fluid{
  width: 60em;
   height: 40em;
-  margin-right: 15em;
+  margin-right: 13em;
   margin-top: 2em;
 }
 

@@ -94,20 +94,23 @@ async function getOneRecord(id) {
    
     </div>
     
-    <div class="col d-flex justify-content-center align-items-center desc">
+    <div class="col d-flex  justify-content-center align-items-center desc">
       <div class="card-body">
-        <h5 class="card-title bar">${name}</h5>
+      <div class="name">
+        <h1 class="card-title bar">${name}</h1>
+        </div>
+        <div class="stuff-s">
         <p class="card-text">${description}</p>
         <p class="card-text"><small>${address} <br> SF, CA ${location}</small></p>
       </div>
- 
+      </div>
 
 
     </div>
     <div class="row g-3">
    
 <div class="col d-flex justify-content-center align-items-center">
-  
+   <div class="moves2">
      <div class="moves">
 <table class="table misc">
     <tbody>
@@ -127,13 +130,16 @@ async function getOneRecord(id) {
   </tbody>
 </table>
 </div>
+</div>
     </div>
     
     <div class="col d-flex justify-content-center align-items-center desc">
  
-  <div class="hours-list hours shift">
+  <div class="hours-list shift">
     <div class="card-body">
-      <h4 class="card-title">🕔 Hours</h4>
+     <div class="hours-title">
+      <h1 class="card-title">🕔 Hours: </h1>
+      </div>
       <p class="card-text">${formattedString(hours)}</p>
       
 
