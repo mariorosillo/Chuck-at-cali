@@ -43,10 +43,7 @@
   background: #f701ff88;
   border: .5em solid #ffee05d5;
   border-radius: 4px;
-  position: relative;
-  transform-style: preserve-3d;
-  will-change: transform;
-  transition: transform .5s;
+ 
 }
 
 .name{
