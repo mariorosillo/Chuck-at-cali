@@ -57,7 +57,7 @@ function formattedString(value) {
 
 // function for our detail view
 async function getOneRecord(id) {
-  let jobsResultElement = document.getElementById("chuck2");
+  let jobsResultElement = document.getElementById("chuck");
 
   const options = {
     method: "GET",
@@ -85,7 +85,7 @@ async function getOneRecord(id) {
 
       let newHtml = `
        
- 
+ <div class="card2 row g-3 ">
     <div class="col d-flex justify-content-center align-items-center">
      ${menu
           ? `<img class="img-fluid back ms-4" alt="${name}" src="${photo[0].url}">`
@@ -154,7 +154,6 @@ async function getOneRecord(id) {
 
    
    </div> 
-
 
 
  
