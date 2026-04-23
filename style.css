@@ -11,6 +11,16 @@
 @media screen and (min-width: 950px) {
   .card {
     margin-left: 7em !important;
+     margin-top: 10em !important;
+  width: 19em !important;
+  height: 29em !important;
+ align-items: center !important;     /* Vertical center */
+ text-align: center !important;      /* Centers multiline text */
+  border-radius: 4px !important;
+  position: relative !important;
+  transform-style: preserve-3d !important;
+  will-change: transform !important;
+  transition: transform .5s !important;
   }
 }
 
@@ -58,8 +68,8 @@
 }
 .card {
   margin-top: 10em;
-  width: 19em;
-  height: 21em;
+  width: 17em;
+  height: 29em;
  align-items: center;     /* Vertical center */
  text-align: center;      /* Centers multiline text */
   background: #ed26ffe5;
