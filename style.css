@@ -68,8 +68,9 @@
 }
 .card {
   margin-top: 10em;
+  margin-left: .1em;
   width: 17em;
-  height: 29em;
+  height: 26em;
  align-items: center;     /* Vertical center */
  text-align: center;      /* Centers multiline text */
   background: #ed26ffe5;
