@@ -58,7 +58,7 @@
 }
 .card {
   margin-top: 10em;
-  margin-left: 2em;
+  margin-left: .2em;
   width: 20em;
   height: 28em;
  align-items: center;     /* Vertical center */
@@ -127,8 +127,8 @@ row-gap: 7em;
 }
 
 .img-fluid{
-  width: 25em;
-  height: 20em;
+  width: 15em;
+  height: 13em;
   margin-right: 1em;
    max-width: max-content;
 }
