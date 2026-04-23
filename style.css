@@ -5,7 +5,24 @@
     margin-left: 1em;
 }
 
+/* Base style for mobile  devices */
+body {
+  
+}
 
+/* For devices with a minimum width of 768px (Medium) */
+@media screen and (min-width: 950px) {
+  .card {
+    margin-left: 7em !important;
+  }
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px) {
+   {
+    
+  }
+}
 
 
 .list{
@@ -20,7 +37,7 @@
 }
 .card {
   margin-top: 10em;
-  margin-left: 7em;
+  margin-left: 2em;
   width: 20em;
   height: 28em;
  align-items: center;     /* Vertical center */
