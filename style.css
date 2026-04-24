@@ -43,7 +43,7 @@
    height: 20em !important;   
   width: 53em !important; 
   margin-bottom: 24em !important;
-  margin-right: 11em !important;
+  margin-right: 9em !important;
   }
 }
 @media screen and (min-width: 950px) {
@@ -93,13 +93,21 @@
   border-radius: 4px;
  
 }
-.idk{
-  background-color: blue;
+.card-body2{
+  background-color: rgba(247, 247, 95, 0.404);
+  height: 20em;
+}
+
+.card-body3{
+  background-color: rgba(95, 209, 247, 0.404);
+  height: 20em;
+  width: 12em;
+  
 }
 
 
-
 .name{
+  color: rgb(128, 4, 128);
   font-family: "Mogra", system-ui;
   font-weight: 200;
   margin-block: 6em;
@@ -113,7 +121,7 @@
 }
 
 .stuff-s {
-color: aqua;
+color: rgb(1, 143, 143);
 row-gap: 7em;
   font-family: "Mogra", system-ui;
     font-size: 1.2rem;
@@ -134,7 +142,7 @@ row-gap: 7em;
   
   height: 40em;
   width: 13em;
-    color: rgb(236, 255, 69);
+    color: rgb(202, 218, 59);
   font-family: "Mogra", system-ui;
     font-size: 1.2rem;
   font-weight: 700;
