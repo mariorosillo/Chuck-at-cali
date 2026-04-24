@@ -56,6 +56,8 @@
   }
 }
 
+ /* text for cards in the list view  */
+
 .list{
     height: fit-content;
     gap: 1em;
@@ -66,6 +68,9 @@
   font-style: normal;
 
 }
+
+/* this is for the list view */
+
 .card {
   margin-top: 10em;
   margin-left: .1em;
@@ -81,6 +86,9 @@
   will-change: transform;
   transition: transform .5s;
 }
+
+/* card 2 is for the card for the detailed view */
+
 .card2 {
  align-items: center;     /* Vertical center */
  text-align: center;  /* Centers multiline text */
@@ -120,17 +128,8 @@
 
 }
 
-.stuff-s {
-color: rgb(1, 143, 143);
-row-gap: 7em;
-  font-family: "Mogra", system-ui;
-    font-size: 1.2rem;
-  font-weight: 700;
-  font-style: normal;
- 
 
 
-}
 .table{
 
  height: 4em;   
