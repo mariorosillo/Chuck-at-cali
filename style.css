@@ -101,11 +101,14 @@
   border-radius: 4px;
  
 }
+
+/* card body 2 is the card body for the description card */
 .card-body2{
   background-color: rgba(247, 247, 95, 0.404);
   height: 20em;
 }
 
+/* card body 3 is the card body for the hours */
 .card-body3{
   background-color: rgba(95, 209, 247, 0.404);
   height: 20em;
