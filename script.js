@@ -107,8 +107,8 @@ async function getOneRecord(id) {
 
 
     </div>
+    
     <div class="row g-3">
-   
 <div class="col d-flex justify-content-center align-items-center">
    <div class="moves2">
      <div class="moves">

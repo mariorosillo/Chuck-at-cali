@@ -93,6 +93,11 @@
   border-radius: 4px;
  
 }
+.idk{
+  background-color: blue;
+}
+
+
 
 .name{
   font-family: "Mogra", system-ui;
@@ -106,6 +111,7 @@
   color: rgb(0, 0, 0);
 
 }
+
 .stuff-s {
 color: aqua;
 row-gap: 7em;
@@ -125,6 +131,7 @@ row-gap: 7em;
   margin-left: 0em;
 }
 .hours-list{
+  
   height: 40em;
   width: 13em;
     color: rgb(236, 255, 69);
