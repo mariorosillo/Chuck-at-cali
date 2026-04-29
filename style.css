@@ -42,8 +42,9 @@
   .table {
    height: 20em !important;   
   width: 53em !important; 
+  margin-top: 2em !important;
   margin-bottom: 24em !important;
-  margin-right: 9em !important;
+  margin-right: 40em !important;
   }
 }
 @media screen and (min-width: 950px) {
@@ -51,7 +52,7 @@
    width: 60em !important;
   height: 40em !important;
   margin-right: 13em !important;
-  margin-top: 0em !important;
+  margin-top: 2em !important;
   margin-bottom: 0em !important ;
   }
 }
@@ -143,7 +144,8 @@
 .hours-list{
   
   height: 40em;
-  width: 13em;
+  width: 17em;
+  margin-right: 13em;
     color: rgb(202, 218, 59);
   font-family: "Mogra", system-ui;
     font-size: 1.2rem;
