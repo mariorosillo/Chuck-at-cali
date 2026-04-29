@@ -86,7 +86,7 @@ async function getOneRecord(id) {
       let newHtml = `
        
  <div class="card2 row g-3 ">
-    <div class="col d-flex justify-content-center align-items-center">
+    <div class="col-xl d-flex justify-content-center align-items-center">
      ${menu
           ? `<img class="img-fluid back ms-4" alt="${name}" src="${photo[0].url}">`
           : ``
@@ -94,7 +94,7 @@ async function getOneRecord(id) {
    
     </div>
     
-    <div class="col d-flex  justify-content-center align-items-center desc">
+    <div class="col-xl d-flex  justify-content-center align-items-center desc">
       <div class="card-body">
       <div class="card-body2">
       <div class="name">
@@ -108,6 +108,7 @@ async function getOneRecord(id) {
       </div>
 
 
+    </div>
     </div>
     
     <div class="row g-3">
@@ -133,6 +134,7 @@ async function getOneRecord(id) {
 </table>
 </div>
 </div>
+    </div>
     </div>
     
     <div class="col d-flex justify-content-center align-items-center desc">
@@ -160,7 +162,7 @@ async function getOneRecord(id) {
 
 
    
-   </div> 
+
 
 
  
