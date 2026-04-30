@@ -57,6 +57,19 @@
   }
 }
 
+@media screen and (min-width: 950px) {
+  .hours-list {
+    height: 40em!important;
+  width: 17em!important;
+  margin-right: 13em!important;
+    color: rgb(202, 218, 59);
+  font-family: "Mogra", system-ui;
+    font-size: 1.2rem!important;
+  font-weight: 700!important;
+  font-style: normal!important;
+  }
+}
+
  /* text for cards in the list view  */
 
 .list{
@@ -145,7 +158,8 @@
   
   height: 40em;
   width: 17em;
-  margin-right: 13em;
+  margin-left: 3em;
+  margin-right: 0em;
     color: rgb(202, 218, 59);
   font-family: "Mogra", system-ui;
     font-size: 1.2rem;
